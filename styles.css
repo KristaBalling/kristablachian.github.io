@@ -1,5 +1,13 @@
-div {
-border: solid, black, 2px;
-align-content: center;
-background: red;
+
+#header {
+    text-align: center;
+
+}
+
+h1 {
+    color:blue;
+}
+
+#contact {
+    display: inline;
 }
