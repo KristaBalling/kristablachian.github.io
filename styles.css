@@ -9,5 +9,9 @@ h1 {
 }
 
 #contact {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+
 }
+
