@@ -29,11 +29,12 @@ body {
 
     /*contact section */
 
-#contact {
+#contact, img {
     display: flex;
     justify-content: baseline;
     background-color:  #4d6d9a;
     border-radius: 50px;
+    justify-content: space-around;
     }
 #contact_info,  {
     display: flex;
@@ -63,7 +64,10 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
 
+#lot_bot> p {
+    text-align: left;
 }
 
 #about_me {
@@ -79,9 +83,9 @@ body {
 /* images*/
 me {
     margin-right: -250px;
-    border-radius: 100px;
+
     }
-    #fork_icon {
+#fork_icon {
         height: 200px;
         width: 200px;
         margin-left: 40%;
