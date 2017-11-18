@@ -29,12 +29,14 @@ body {
 
     /*contact section */
 
-#contact, img {
+#contact {
     display: flex;
     justify-content: baseline;
     background-color:  #4d6d9a;
-    border-radius: 50px;
     justify-content: space-around;
+    }
+    #contact > img{
+        border-radius: 50px;
     }
 #contact_info,  {
     display: flex;
