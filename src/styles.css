@@ -12,20 +12,24 @@ body {
 
 /* header stuff*/
 
-#header {
-    width: 1000px;
-    height: 350px;
-    text-align: center;
-    background-color: #99CED3;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: space-around;
-    }
+
 #name {
-    color:#4d6dba;
+    color: #99CED3;
     }
+
+ #full_stack {
+    color: #B7A5DF;
+ } 
+ 
+ #header_p2 {
+     display: block;
+     bottom: 600px;
+     color: #B7A5DF;
+     margin-left: 30%;
+     position: absolute;
+     
+
+ }
 
     /*contact section */
 
