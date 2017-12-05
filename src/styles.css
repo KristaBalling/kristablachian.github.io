@@ -31,7 +31,12 @@ body {
     justify-content: space-around;
     border-radius: 50px;
     }
-    #contact > img{
+    p{
+        text-align: justify;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    #me{
         border-radius: 50px;
     }
 #contact_info,  {
