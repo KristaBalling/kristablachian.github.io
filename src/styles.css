@@ -14,9 +14,12 @@ body {
 
 #name {
     color: #99CED3;
-    }
+    font-weight: bold;
+    text-shadow: -1px -1px #111111;
+}
 #full_stack {
     color: #B7A5DF;
+    text-shadow: -1px -1px #111111;
  } 
 
 /* about me */
@@ -106,4 +109,5 @@ a:hover, a:focus, a:active {
     }
     #selected_work {
         color: #99CED3;
+        text-shadow: -1px -1px #111111;
     }
