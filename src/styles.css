@@ -60,7 +60,6 @@ p{
     margin-top: 5%;
     border: solid, black, 2px;
     display: inline-block;
-    text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -72,7 +71,7 @@ p{
     align-content: baseline;
 }
 .project_p {
-    margin-top: 100px
+    margin-top: 100px;
 }
 
 /* images*/
