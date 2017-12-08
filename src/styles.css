@@ -19,7 +19,13 @@ body {
     color: #B7A5DF;
  } 
 
-/*contact section */
+/* about me */
+#about_me {
+    background-color: #edb5bf;
+    border-radius: 50px;
+    width: 1000px;
+    color: #4d6d9a;
+}
 
 #about_me {
     display: flex;
@@ -57,23 +63,27 @@ p{
     flex-direction: column;
 }
 
-#about_me {
-    background-color: #edb5bf;
-    border-radius: 50px;
-    width: 1000px;
-    color: #4d6d9a;
-
+.project_contents {
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
 }
+.project_p {
+    margin-top: 100px
+}
+
 /* images*/
 #me {
     border-radius: 50px;
 }
 #fork_icon {
-        height: 200px;
-        width: 200px;
-        margin-left: 40%;
-        margin-top: 2%;
-    }
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
 
 /* links*/
 a:link { 
@@ -95,5 +105,5 @@ a:hover, a:focus, a:active {
       text-align: center;
     }
     #selected_work {
-        color: #4d6dba;
+        color: #99CED3;
     }
