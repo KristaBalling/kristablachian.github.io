@@ -78,13 +78,14 @@ p{
 #me {
     border-radius: 50px;
 }
-#fork_icon {
+.project_img {
     height: 300px;
     width: 300px;
     margin-top: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     margin-right: 50px;
     margin-left: 50px;
+    border-radius: 50px;
 }
 
 /* links*/
